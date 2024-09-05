@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "composite": false,
+    "incremental": false,
+    "tsBuildInfoFile": null,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    // "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": false,
+
+    /* Types declaration */
+    "noEmit": false, // 允许生成文件
+    "declaration": true, // 需要设置为 true 来支持类型
+    "emitDeclarationOnly": true, // 只生成类型文件
+    "declarationDir": "dist", // 类型文件的导出目录
+
+    "paths": {
+      "src/*": ["./src/*"],
+    }
+  },
+  "include": ["src"],
+}
