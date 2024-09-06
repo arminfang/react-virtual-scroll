@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import { useResizeObserver, useIntersection } from "@armin4fun/react-hooks";
 
-import useIntersection from "src/hooks/useIntersection";
-import useResizeObserver from "src/hooks/useResizeObserver";
 import { getVisibleHeight, throttle } from "src/lib/helpers";
 import LoadingSvg from "src/assets/loading.svg?react";
 

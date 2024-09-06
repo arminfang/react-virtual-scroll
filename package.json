@@ -2,7 +2,7 @@
   "name": "@armin4fun/react-virtual-scroll",
   "private": false,
   "description": "A react virtual scroll component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "types": "./dist/main.d.ts",
   "main": "./dist/react-virtual-scroll.es.js",
@@ -36,6 +36,7 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
+    "@armin4fun/react-hooks": "^0.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

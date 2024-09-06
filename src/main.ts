@@ -1,1 +1,3 @@
-export { default as VirtualScroll } from "./components/VirtualScroll";
+import VirtualScroll from "./components/VirtualScroll";
+
+export default VirtualScroll;

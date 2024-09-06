@@ -10,6 +10,15 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
+"@armin4fun/react-hooks@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@armin4fun/react-hooks/-/react-hooks-0.0.1.tgz#ca1477957f70c78f84380a0c982a0f14bd15199a"
+  integrity sha512-9DwJqOd+omqNGEts7bIQIaK2vvHlb+R12dc8TZ+n9HOJqz3+Rii/3PAslFZvqqhxmVnlMWmisjEuRXocnKvFhw==
+  dependencies:
+    "@types/node" "^22.5.4"
+    react "^18.3.1"
+    react-dom "^18.3.1"
+
 "@ast-grep/napi-darwin-arm64@0.22.6":
   version "0.22.6"
   resolved "https://registry.yarnpkg.com/@ast-grep/napi-darwin-arm64/-/napi-darwin-arm64-0.22.6.tgz#34e9146234de6a7c965ed45335d67863ad96ca95"
@@ -687,6 +696,13 @@
   version "22.4.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-22.4.1.tgz#9b595d292c65b94c20923159e2ce947731b6fdce"
   integrity sha512-1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==
+  dependencies:
+    undici-types "~6.19.2"
+
+"@types/node@^22.5.4":
+  version "22.5.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.4.tgz#83f7d1f65bc2ed223bdbf57c7884f1d5a4fa84e8"
+  integrity sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==
   dependencies:
     undici-types "~6.19.2"
 
